@@ -1,0 +1,6 @@
+commit: HEAD
+process_files: [src/LeckerliOne-Regular.ufo, LeckerliOne-Regular.ttf.ttx, src/LeckerliOne-Regular.otf.ttx,
+  src/LeckerliOne-Regular-TTF.sfd]
+pyftsubset: --notdef-outline --name-IDs=* --hinting
+subset: [latin]
+ttfautohint: -l 7 -r 28 -G 50 -x 13 -w "G"
